@@ -1,2 +1,2 @@
-local
-.idx/.data
+node_modules
+dist
