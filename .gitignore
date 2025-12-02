@@ -1,3 +1,20 @@
-node_modules
-dist
-/src/generated/prisma
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Build output
+/dist
+/build
+/.next
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+
+# Other
+/home/

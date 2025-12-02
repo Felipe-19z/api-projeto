@@ -1,14 +1,19 @@
 {
-  "sqltools.connections": [
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "driver": "PostgreSQL",
-      "name": "Main",
-      "database": "youtube",
-      "username": "user",
-      "password": "mypassword"
-    }
-  ]
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "veterinario",
+            "database": "postgresql",
+            "username": "DATABASE_URL"
+        }
+    ]
 }
